@@ -1,0 +1,204 @@
+:root
+{
+    --mainBackground:#006C74;
+    --textColorWithe:#FFFF;
+    --textHeader:#434451;
+    --linkColor:blue;
+}
+
+*
+{
+    box-sizing:border-box;
+    margin: 0;
+    padding:0
+}
+
+body
+{
+    background-color: #EDF2F7;
+    font-family: 'Cairo', sans-serif ,'Oswald', sans-serif;
+    direction:rtl;
+}
+
+ul
+{
+    list-style:none
+}
+/*------------------------------------------------------------- This is Page Home --------------------------------*/
+
+/*Start navbar*/
+
+nav
+{
+    background-color: var(--mainBackground);
+    color:var(--textColorWithe);
+    padding:0 !important;
+    position: fixed !important;
+    z-index: 99999;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link
+,.navbar-light .navbar-brand
+{
+    color: var(--textColorWithe);
+    transition: all .5s ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover
+,.navbar-light .navbar-brand:hover
+{
+    color:#D2AB37
+}
+/*End navbar*/
+
+/*statrt carousel*/
+
+.carousel-inner
+{
+    height: 100vh
+}
+
+/*End carousel*/
+
+/*Start section-one*/
+
+.section-one
+{
+    
+    padding: 80px 0;
+    color: var(--textColorWithe);
+    background-color: #0a959b;
+    box-shadow: 0px -3px 14px 8px var(--textHeader)
+}
+
+.section-one .content-me h2
+{
+    margin: 30px 0;
+}
+
+.section-one .content-me p
+{
+    font-size: 1.5vw;
+}
+
+/*End section-one*/
+
+/*Start main-side*/
+
+.main-side
+{
+    padding: 80px 0;
+}
+
+.main-side aside
+{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #b9b9b9;
+    height: 520px;
+}
+
+.main-side aside h2
+{
+    position: relative;
+    color:var(--textHeader);
+    font-size: 25px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #45B09E;
+    padding-bottom: 10px;
+}
+
+.main-side aside h2 i
+{
+    position: absolute;
+    left: 0;
+}
+
+.main-side aside ul li
+{
+    margin-top: 20px;
+    position: relative;
+}
+
+.main-side aside ul li a
+{
+    color:var(--textHeader)
+}
+
+.main-side aside ul li a i
+{
+    position: absolute;
+    left: 0;
+    color:#45B09E
+}
+
+.main-side .content-my-side h2
+{
+    background: #fff;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    border: 1px solid #dadde1;
+    border-right-width: 6px;
+    border-right-color: var(--textHeader);
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    position: relative;
+    font-size: 25px;
+    padding: 20px;
+    color:#45B09E
+}
+
+.main-side .content-my-side h2 i
+{
+    position: absolute;
+    left: 20px;
+}
+
+.main-side .content-my-side .box
+{
+    padding: 15px;
+    padding-top: 30px;
+    background: #fff;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 1px solid #dadde1!important;
+    position: relative;
+    transform: translateY(0);
+    transition: all .2s cubic-bezier(.4,0,.2,1);
+}
+
+.main-side .content-my-side .box .stars
+{
+    color:#FFB400;
+    margin-bottom: 10px;
+}
+
+.main-side .content-my-side .box .img img
+{
+    border-radius: 10px;
+    border:1px solid #b9b9b9;
+    padding: 4px;
+    height: 300px;
+}
+
+.main-side .content-my-side .box h3
+{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/*End main-side*/
+
+/*Start footer*/
+
+footer
+{
+    background-color: var(--mainBackground);
+    padding: 20px;
+    color: var(--textColorWithe);
+}
+
+/*End footer*/
